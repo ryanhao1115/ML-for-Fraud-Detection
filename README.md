@@ -22,6 +22,18 @@ Sales process is a high risk process in enterprises.  I use lagecy sales dataset
 ![](https://github.com/ryanhao1115/ML-for-Fraud-Detection/blob/main/p3.PNG)
   * Sale amount distribution
 ![](https://github.com/ryanhao1115/ML-for-Fraud-Detection/blob/main/p4.PNG)
-4. Feature selection and feature engineering. 
-5. Model selection and training. 
-6. Model evaluation. 
+3. Active Learning.
+  * There are only 11 invoice, 154 records labeled as fraud transactions.  Others are unlabel data.
+  * Created and trained a Neural Network.
+  * Predict on unlabel data, selected top 200 uncertain records for review. 
+  * Got back 200 records labeled data.  
+4. Feature engineering.
+  * There were couple categorical fields with too many classes. 
+  * Tried Ordinal Encoding
+  * Tried One hot encoding, after ignore those fields.
+5. The target class - fraud is huge imbalance.
+  * Under sampling
+  * SMOTE over sampling
+6. Created and built a Neural Network for predicting fraud. 
+7. Created and built RandomForest Model for predicting fraud.
+8. Evaluated and compared results.  
