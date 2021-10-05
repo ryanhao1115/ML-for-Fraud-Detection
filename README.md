@@ -14,7 +14,14 @@ Sales process is a high risk process in enterprises.  I use lagecy sales dataset
   * Studied and selected useful feature.  Final confirmed 19 fields from 93 fields.
   * Filled missing value with appropriate value.  
 2. Exploratory analysis to understand data.
-![Sales by date](p1.npg) 
+  * Sales by date
+![](https://github.com/ryanhao1115/ML-for-Fraud-Detection/blob/main/p1.PNG) 
+  * Sales by branch
+![](https://github.com/ryanhao1115/ML-for-Fraud-Detection/blob/main/p2.PNG)
+  * Branch - Procls heatmap
+![](https://github.com/ryanhao1115/ML-for-Fraud-Detection/blob/main/p3.PNG)
+  * Sale amount distribution
+![](https://github.com/ryanhao1115/ML-for-Fraud-Detection/blob/main/p4.PNG)
 4. Feature selection and feature engineering. 
 5. Model selection and training. 
 6. Model evaluation. 
