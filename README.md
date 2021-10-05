@@ -14,7 +14,7 @@ Sales process is a high risk process in enterprises.  I use lagecy sales dataset
   * Studied and selected useful feature.  Final confirmed 19 fields from 93 fields.
   * Filled missing value with appropriate value.  
 2. Exploratory analysis to understand data.
-   ! [Sales by date](p1.npg) 
+![Sales by date](p1.npg) 
 4. Feature selection and feature engineering. 
 5. Model selection and training. 
 6. Model evaluation. 
