@@ -8,7 +8,13 @@ In this project, I try to apply Machine Learning for fraud detection and fraud p
 Sales process is a high risk process in enterprises.  I use lagecy sales dataset from a Global 500 manufacturer for fraud detection.  
 
 ### Project steps
-1. Collect and clean data. 
-2. Feature selection and feature engineering. 
-3. Model selection and training. 
-4. Model evaluation. 
+1. Data cleaning and Feature selection.
+  * Main source data was exported from SAP, csv format with  200k+ records, 93 fields. 
+  * Import csv into Pandas Dataframe.
+  * Studied and selected useful feature.  Final confirmed 19 fields from 93 fields.
+  * Filled missing value with appropriate value.  
+2. Exploratory analysis to understand data.
+   ! [Sales by date](p1.npg) 
+4. Feature selection and feature engineering. 
+5. Model selection and training. 
+6. Model evaluation. 
